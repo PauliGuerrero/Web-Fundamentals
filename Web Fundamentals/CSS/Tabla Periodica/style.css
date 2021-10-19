@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+body{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.numeros-arriba ul{
+    display: flex;
+    color: red;
+}
+.numeros-arriba li{
+    list-style-type: none;
+    width:105px;
+    height: 60px;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+.numeros-costado{
+    display: inline-block;
+    vertical-align: top;
+}
+.numeros-costado li{
+    list-style-type: none;
+    width:105px;
+    height: 80px;
+    padding-top: 30px;
+    margin: 5px 0px;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+
+}
+/*Azul*/
+#azul{
+    display: inline-block;
+}
+.box{
+    list-style: none;
+    width: 105px;
+    height: 90px;
+    text-align: center;
+    margin: 4px 1px;
+    padding: 10px 0px;
+    font-family: sans-serif;
+}
+
+#azul li{
+    
+    background-color: royalblue;
+    color: white;
+    
+}
+#azul-1{
+    display: inline-block;
+}
+#azul-2{
+    display: inline-block;
+}
+/*Rosado*/
+#rosado{
+    display: inline-block;
+}
+/*Amarillo*/
+
+#rosado li{
+    color: purple;
+    background-color: salmon;
+}
+#rosado-1{
+    display: inline-block;
+}
+#amarillo{
+    display: inline-block;
+}
+#amarillo-1{
+    display: inline-block;
+}
+#amarillo li{
+    background-color: yellow;
+}
+#verde{
+    margin-left: 120px;
+}
+
+#verde-1{
+    display: flex;
+}
+#verde h1{
+    color: red;
+    font-size: 20px;
+    font-weight: 200;
+    width: 210px;
+    padding-top: 40px;
+}
+
+#verde ul{
+    display: flex;
+}
+#verde li{
+    background-color: yellowgreen;
+    margin: 2px 3px;
+}

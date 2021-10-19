@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Mi Formulario de Registro</h1>
+    <form action="process.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido"> 
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" name="contraseña">
+        <label for="confirmar">Confirmar:</label>
+        <input type="text" id="confirmar" name="confirmar">
+        <label for="cumpleaños">cumpleaños:</label>
+        <input type="text" name="cumpleaños" id="cumpleaños">
+        <label for="hombre">Hombre</label>
+        <input type="checkbox" name="hombre" id="hombre">
+        <label for="mujer">Mujer</label>
+        <input type="checkbox" name="mujer" id="mujer">
+        <label for="otro">Otro</label>
+        <input type="checkbox" name="otro" id="otro">
+        <label for="brevedescripcion">Una breve descripción de ti:</label>
+        <textarea name="description"></textarea>
+        <label for="lenguajefavorito">Lenguaje Favorito:</label>
+        <select name="idioma" id="lenguajefavorito">
+           <option value="javascrip">Javascript</option>
+           <option value="html">Html</option>
+           <option value="css">CSS</option>
+        </select>
+        <label for="enviar"></label> 
+        <input type="submit">  
+    
+
+
+    </form>
+</body>
+</html>

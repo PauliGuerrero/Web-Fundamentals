@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .navbar-container{
+            height: 50px;
+            background: green;
+            display: flex;
+            flex-direction: row;
+        }
+        .logo-wrp{
+           background: indianred;
+        }
+        #navbar-options li{
+            display: inline-block;
+            background: hotpink;
+            padding-left: 50%;
+
+        }
+        #navbar-options li:nth-last-child(1){
+            
+            font-weight: bold;}
+        .account-info-wrp{
+            display: inline-block;
+            background: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar-container">
+        <div class="logo-wrp">
+            logo
+        </div>
+        <ul id="navbar-options">
+            <li>Home</li>
+            <li>availability</li>
+            <li>integrations</li>
+            <li>help</li>
+        </ul>
+        <div class="account-info-wrp">
+            acout
+        </div>
+    </div>
+    
+</body>
+</html>

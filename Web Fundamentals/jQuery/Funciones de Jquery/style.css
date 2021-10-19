@@ -1,0 +1,33 @@
+*{
+    outline: 1px dotted red;
+    font-family: sans-serif;
+}
+.box h1, p{
+
+    text-align: center;
+}
+.box p{
+    font-size: 20px;
+}
+#aparece{
+    display: none;
+}
+button{
+    background-color: royalblue;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    position: relative;
+    bottom: 50px;
+    margin-left: 10px;
+}
+img{
+    width: auto;
+    height: 100px;
+    display: none;
+    position:relative;
+    bottom:140px;
+    left:200px;
+    border-radius: 50px;
+}

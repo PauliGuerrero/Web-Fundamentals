@@ -1,0 +1,121 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+.pagina{
+    background:radial-gradient(#6c5a63, #3c2d33, #1d0f13);
+    width: 980px;
+} 
+header{
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+header h1{
+    display: inline-block;
+    font-size: 28px;
+    font-family:cursive;
+    
+}
+header h2{
+    display: inline-block;
+    padding-left: 400px;
+    font-size: 23px;
+}
+.img{
+    background-color: #f8f8f8;
+    width: 400px;
+    padding: 10px;
+    display: inline-block;
+    margin: 15px;
+}
+.img img{
+    width: 400px;
+    
+}
+main{
+    background: linear-gradient(#fcfbfc,#d8ccd9);
+    width: 490px;
+    display: inline-block;
+    vertical-align: top;
+    height: 285px;
+    margin: 15px;
+    
+}
+main h2{
+    background: linear-gradient(#878592,#aeaeb2,#878592);
+    color: white;
+    padding:15px;
+    font-size: 20px;
+   
+}
+main p{
+    padding: 0px 15px 0px 15px;
+    margin: 10px;
+    font-size: 13px;
+}
+.about{
+    height: 285px;
+}
+main a{
+   
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    font-size: 13px;
+    
+    
+}
+
+
+.box{
+    width:300px;
+    margin: 10px;
+    display: inline-block;
+    background: linear-gradient(#fcfbfc,#d8ccd9);
+    font-size: 13px;
+    
+}
+.box img{
+    width: 300px;
+}
+.box h2{
+    background: linear-gradient(#878592,#aeaeb2,#878592);
+    color: white;
+    padding:10px;
+    font-size: 17px;
+}
+.box p{
+    
+    padding: 10px;
+    text-align: justify;
+}
+.logos{
+    
+    padding: 4px;
+
+}
+.logos img{
+    width: 40px;
+    padding: 2px;
+}
+.boton{
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+.boton a{
+    padding: 5px;
+    background-color: #4f7c63;
+    border:1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+

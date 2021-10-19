@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+.row h1{
+    background-color: #b3b3b3;
+    padding: 10px;
+    margin: 10px;
+}
+
+.row p{
+    background-color:#cccccc;
+    padding: 10px;
+    margin: 10px;
+}
+span{
+    font-weight: bold;
+}
+.row p:last-child{
+    background-color: #ffff9a;
+}
+@media only screen and (max-width: 480px){
+    .sm-4{
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,9 @@
+.ninja-gato{
+    display: flex;
+    flex-direction:column;
+}
+.ninja-gato img{
+    width: 500px;
+
+    
+}
