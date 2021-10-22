@@ -47,11 +47,9 @@ console.log(result);
 
 function repetirValores(arr){
     for(var i=0; i<arr.length;i++){
-        
+
     }
 }
 
-
- 
  var result=repetirValores([4,"ulysses",42,false]);
  console.log(result);
